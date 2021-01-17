@@ -9,13 +9,13 @@ namespace HotFix_Project
 
         public InstanceClass()
         {
-            UnityEngine.Debug.Log("!!! InstanceClass::InstanceClass()");
+            UnityEngine.Debug.Log("!!! InstanceClass::Instandasdasdad11111cffffeClass()");
             this.id = 0;
         }
 
         public InstanceClass(int id)
         {
-            UnityEngine.Debug.Log("!!! InstanceClass::InstanceClass() id = " + id);
+            UnityEngine.Debug.Log("!!! InstanceClass::Instance222222Class() id = " + id);
             this.id = id;
         }
 
@@ -27,7 +27,7 @@ namespace HotFix_Project
         // static method
         public static void StaticFunTest()
         {
-            UnityEngine.Debug.Log("!!! InstanceClass.StaticFunTest()");
+            UnityEngine.Debug.Log("!!! InstanceClass.Staticdddd2222FunTest()");
         }
 
         public static void StaticFunTest2(int a)
